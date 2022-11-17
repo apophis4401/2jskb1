@@ -1,0 +1,66 @@
+.textsub {
+  font-family: Trebuchet MS;
+  color: wheat;
+  text-decoration: none;
+  font-weight: normal;
+}
+.textdom {
+  font-family: Trebuchet MS;
+  color: wheat;
+  margin: 0;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: 5px;
+  filter: blur(0px);
+}
+.textdom2 {
+  font-family: Trebuchet MS;
+  color: wheat;
+  margin: 0;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 5px;
+  filter: blur(0px);
+}
+.blur {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-right: 1px solid wheat;
+  height: 100vh;
+}
+.search {
+  background-color: wheat;
+  border: 1cm;
+  border-color: gray;
+  outline: none;
+  font-family: Trebuchet MS;
+  color: darkred;
+  border-radius: 8px;
+  width: 5;
+  height: 17;
+  font-size: 20px;
+  outline: none;
+  margin-left: 5px;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.empty {
+  color: antiquewhite;
+}
+.poster {
+  border: 3px;
+  border-color: darkred;
+  height: 450;
+  width: 300;
+}
+.header {
+  margin: 0;
+  text-decoration: none;
+  background-color: darkred;
+  height: 34px;
+  filter: blur(0px);
+}
